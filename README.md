@@ -10,3 +10,5 @@ webhook-spam.py - Spams Discord Webhook With Custom Text & Custom Amount of Mess
 
 
 ***Please Understand, Anything that you do with these tools is YOUR responsibility, I am not responsible for the trouble you get into with these tools, nor am I responsible for any Bans From Discord You Recieve.***
+
+Also, please understand, a majority of these tools, which work for Discord, are against ToS, meaning if you are caught doing anything with these tools, such as Spamming a webhook, you can be banned, please only use this with Consent from the person/people.
