@@ -14,6 +14,7 @@ Monitor.py - Monitors Prices of Bitcoin and Ethereum, then Sends Said Prices to 
 *To Do So*: Find "color" within the variable **embed1** or **embed2** and change it's *Hexidecimal* Value to another Number. 
 
 The Base Colors:
+
 *embed1*: Yellow (for Bitcoin)
 
 *embed2*: Black (for Ethereum)
