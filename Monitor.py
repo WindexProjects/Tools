@@ -1,9 +1,10 @@
 import urllib3, json, os, time, random, threading
-webhook = "https://discord.com/api/webhooks/869744468918669323/DmPdiOonixH0ZbpEmadtcoB_OhGFafbylR5_bVnX8glvtDaKYx1mvxKU6pC5kgPRTLJ9"
+webhook = input("Enter Webhook to Send Prices To: ") #Webhook To Send The Prices of BTC / ETH to.
 api1 = "https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest"
-api2 = "https://api.binance.com/api/v3/trades"  # Different Api For Possible Answers
+#api2 = "https://api.binance.com/api/v3/trades"
+#Useless API For This Task
 api1_headers = {
-    "X-CMC_PRO_API_KEY": "54d65d34-156b-4906-8224-274fef123e74",
+    "X-CMC_PRO_API_KEY": "Enter Api Key Here",
     "Accept": "application/json",
 }
 
