@@ -15,6 +15,7 @@ Monitor.py - Monitors Prices of Bitcoin and Ethereum, then Sends Said Prices to 
 
 The Base Colors:
 *embed1*: Yellow (for Bitcoin)
+
 *embed2*: Black (for Ethereum)
 
 ***Please Understand, Anything that you do with these tools is YOUR responsibility, I am not responsible for the trouble you get into with these tools, nor am I responsible for any Bans From Discord You Recieve.***
