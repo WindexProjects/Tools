@@ -8,8 +8,12 @@ ip-logger.py - Logs the IP Address of Victim who Runs it + *now* Geolocates the 
 
 webhook-spam.py - Spams Discord Webhook With Custom Text & Custom Amount of Messages (Some Messages may not send due to discords' api)
 
-Monitor.py - Monitors Prices of Bitcoin and Ethereum, then Sends Said Prices to a Discord Webhook. Feel Free to Change the color(s) of the Discord Embeds, if you'd like:
-*To Do So*: Find "color" within the variable **embed1** or **embed2** and change it's *Hexidecimal* Value to another Number, The Base Colors:
+Monitor.py - Monitors Prices of Bitcoin and Ethereum, then Sends Said Prices to a Discord Webhook. Feel Free to Change the color(s) of the Discord Embeds
+
+
+*To Do So*: Find "color" within the variable **embed1** or **embed2** and change it's *Hexidecimal* Value to another Number. 
+
+The Base Colors:
 *embed1*: Yellow (for Bitcoin)
 *embed2*: Black (for Ethereum)
 
