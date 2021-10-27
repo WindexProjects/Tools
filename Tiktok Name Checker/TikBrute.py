@@ -1,7 +1,11 @@
 import httpx, subprocess, asyncio, time, threading, platform
 from webhook import webhook as wb
 from colorama import Fore, Style, init
-webhook = 'https://discord.com/api/webhooks/902719168032440400/4SGYfVl7881bOiP-6kW5DsLe4aZh9iyZFZFxnNdw6qY30Iy8OsejvV4JW7cehKKiCJm7'
+if platform.uname().system.lower() != 'windows':
+	print("Operating System Not Supported! Requires Windows.")
+	time.sleep(3)
+	quit()
+webhook = ' ' #Webhook Goes Here, if you'd like to use a webhook.
 init(convert=True)
 g = Fore.GREEN
 r = Fore.RED
@@ -32,7 +36,7 @@ def gather_(client):
 		for x in usernames.readlines():
 			tasks.append(client.get(f'https://www.tiktok.com/@{x.rstrip()}?', allow_redirects=False, headers=headers))
 			subprocess.call(f"title [!] LOADED {len(tasks)}/ {total()} NAMES[!] ----- TikTok Username Checker... Made by Windex \u2664", shell=True)
-	subprocess.call("cls" if platform.uname().system.lower() == 'windows' else "clear", shell=True)
+	subprocess.call("cls")
 	print(f"{Fore.RESET}Loaded {len(tasks)}, Beginning to Check.. \nTime May Vary Depending on Amount of Usernames!")
 	return tasks
 async def req():
